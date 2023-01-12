@@ -1,0 +1,139 @@
+.footer{
+  &__container{
+    display: grid;
+    grid-template-columns: 296px 1fr;
+  }
+  &__right{
+    background-color:#101010;
+    color: var(--light-color);
+  }
+  &__nav{
+    padding: 40px 24px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+  }
+  &__list{
+    display: block;
+    padding-bottom: 20px;
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+  }
+  &__item-bold{
+    padding: 0px 0px 32px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__item{
+    padding: 0px 0px 16px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #989898;
+
+    span{
+      color: #0082FF;
+    }
+   }
+   &__item-about{
+    border-radius: 4px;
+    max-width: 352px;
+    background: #2D2D2D;
+    padding: 4px 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    height: 32px;
+
+    span{
+      color: #0082FF;
+      padding-right: 8px;
+      }
+    }
+    &__input{
+      border-radius: 4px;
+      border: 1px solid #2D2D2D;
+      padding: 12px 16px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: #787878;
+      height: 48px;
+      max-width: 352px;
+      background-color: transparent;
+      margin-bottom: 16px;
+    }
+    &__checkbox-container{
+      max-width: 352px;
+      border-radius: 4px;
+      padding: 24px 16px;
+      display: flex;
+      flex-direction: column;
+      background: #232323;
+
+    }
+    &__checkbox{
+      margin-left: 100px;
+    }
+    &__descr-box{
+      background: #181716;
+      padding: 40px 24px;
+    }
+    &__descr{
+      margin: 0;
+      padding: 0px 0px 20px 0px;
+      max-width: 627px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #989898;
+
+      span{
+        color: #0082FF;
+      }
+    }
+    &__descr-bottom{
+      margin: 0;
+      max-width: 627px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      color: #989898;
+    }
+    .custom-checkbox{
+      display: flex;
+      justify-content: space-between;
+    }
+    .custom-checkbox__content{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+       color: #989898;
+    }
+    .custom-checkbox{
+      &:not(:last-child){
+        padding-bottom: 24px;
+      }
+    }
+
+    .img__title {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Merriweather';
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      color: var(--light-color);
+    }
+
+   }
+ 
+
+
+
+

@@ -1,0 +1,23 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/burger";
+@import "./components/media";
+@import "./components/header";
+@import "./components/nav";
+@import "./components/slider";
+@import "./components/hero";
+@import "./components/structure";
+@import "./components/banner";
+@import "./components/history";
+@import "./components/fclub";
+@import "./components/about";
+@import "./components/fedback";
+// @import "./components/checkbox";
+@import "./components/footer";
+
+// тестовые стили, удалите их

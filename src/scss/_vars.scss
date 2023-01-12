@@ -1,0 +1,17 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Merriweather", "SourceSansPro", sans-serif;
+  --content-width: 1612px;
+  --container-offset: 10px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --very-dark-gray:#333333;
+  --dark-gray:#2D2D2D;
+  --light-gray:#E2E2E2;
+  --light-color: #fff;
+  --bg-color:#E5E5E5;
+  --dark-color: #000;
+}
